@@ -16,7 +16,7 @@ const createWindow = () => {
 
     win.loadURL('http://localhost:3000')
     win.on('closed', function () {
-        win = null
+        BrowserWindow = null
     })
 }
 

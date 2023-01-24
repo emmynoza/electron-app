@@ -25,11 +25,27 @@ function addToSection(section, beoItem) {
 
     if (sectionName.id = section) {
         beoItem.forEach(item => {
+
+            let wrapper = document.createElement('div')
+            wrapper.className = 'item-wrapper'
+
+            let delBtn = document.createElement('button')
+            delBtn.className = 'delete-btn'
+            delBtn.innerText = 'X'
+
+
             let template = document.createElement('a')
             template.innerText = item
             template.className = 'beo-items'
             template.href = '#'
-            sectionName.appendChild(template)
+
+            wrapper.append(template, delBtn)
+
+            sectionName.append(wrapper)
+
+
+
+
 
             template.addEventListener('click', e => {
                 e.preventDefault();
@@ -42,8 +58,27 @@ function addToSection(section, beoItem) {
     }
     // add item button
     addItemBtn(sectionName)
+    // add delete button
 
 }
+
+// delete button
+
+function deleteBtn(section) {
+    let delBtn = document.createElement('button')
+    delBtn.innerText = 'x'
+    section.appendChild(delBtn)
+
+    delBtn.addEventListener('click', e => {
+        e.preventDefault
+
+        console.log(e.target);
+
+    })
+}
+
+
+
 
 
 // creates add item button
