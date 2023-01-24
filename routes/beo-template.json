@@ -1,0 +1,106 @@
+{
+  "nonAlcoholics": {
+    "naProvidedBy": [
+      "DRR",
+      "Client Providing"
+    ],
+    "naLocation": [
+      "Usual Location at Venue",
+      "Served From the Bar",
+      "See Diagram"
+    ],
+    "naNotes": [
+      "DRR providing extra beverage dispenser for water"
+    ]
+  },
+  "barAlcohol": {
+    "barBartending": [
+      "DRR",
+      "Venue",
+      "No Bar"
+    ],
+    "barNotes": [],
+    "barLocation": [
+      "Built-in Bar",
+      "Usual Location at Venue",
+      "See Diagram"
+    ],
+    "barIce": [
+      "DRR Providing Ice for whole event",
+      "DRR providing Ice for Non-alcoholics only",
+      "Venue has small ice machine, DRR bringing ice for half guest count",
+      "Venue has Large Ice Machine",
+      "Client Providing"
+    ]
+  },
+  "food": {
+    "appetizers": [
+      "Usual Location at Venue",
+      "Patio",
+      "On Dance floor, breaking down at end of cocktail hour"
+    ],
+    "dessert": [
+      "Host is providing cake, Saving top tier",
+      "Host is providing cake NOT saving top tier",
+      "Host is providing other desserts",
+      "DRR provided",
+      "Usual Location at venue",
+      "See Diagram"
+    ],
+    "leftovers": [
+      "Fridge/Prep Area",
+      "Let Planner Know",
+      "With Client"
+    ],
+    "bgServed": [
+      "Come Through Buffet",
+      "Plated & Served"
+    ]
+  },
+  "equipment": {
+    "tables": [
+      "DRR 3 6ft",
+      "DRR 2 6ft",
+      "DRR 1 6ft",
+      "Venue"
+    ],
+    "tablecloth": [
+      "DRR Black Spandex",
+      "DRR White linen-like disposables",
+      "Client/Venue Provided",
+      "DRR Black Spandex",
+      "DRR White linen-like disposables"
+    ],
+    "plates": [
+      "DRR Basic Black Disposables",
+      "DRR Premium Silver Disposables",
+      "DRR Premium Gold Disposables",
+      "Client Provided Disposables",
+      "Rented Plates & Utensils",
+      "DRR Bringing Basic Black as backups"
+    ],
+    "drinkware": [
+      "DRR will provide 12oz plastic tumblers for Non-alcoholic beverages, wine. Unless otherwise noted",
+      "Client Provided Plastic Tumblers",
+      "Rented Drinkware"
+    ]
+  },
+  "services": {
+    "setup": [
+      "Venue",
+      "Client",
+      "Coordinator",
+      "DRR"
+    ],
+    "cleanup": [
+      "Venue",
+      "DRR is staying 30 Minutes after guests departure to do a final cleanup. Per venue guidelines",
+      "DRR leaving before guest departure"
+    ],
+    "checkout": [
+      "Wedding Coordinator",
+      "Venue/venue staff",
+      "Client"
+    ]
+  }
+}

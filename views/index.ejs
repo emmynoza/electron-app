@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>DRR clipboard</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Non-alcoholics -->
+      <button class="accordion">Non-Acoholic Beverages</button>
+      <div class="accordion-content section" id="nonAlcoholics">
+        <div id="naProvidedBy"><h4>Who is providing NA Beverages</h4></div>
+
+        <div class="na-locations" id="naLocation">
+          <h4>Locations:</h4>
+        </div>
+        <div class="na-notes" id="naNotes">
+          <h4>NA Beverage Notes</h4>
+        </div>
+      </div>
+
+      <!-- Bar and Alcohol -->
+      <button class="accordion">Bar and Alcohol</button>
+      <div class="accordion-content section" id="barAlcohol">
+        <div id="barBartending">
+          <h4>Who is bartending?</h4>
+        </div>
+        <div id="barNotes">
+          <h4>Alcohol Notes</h4>
+        </div>
+        <div id="barLocation">
+          <h4>Location(s)</h4>
+        </div>
+        <div id="barIce">
+          <h4>Who is providing Ice?</h4>
+        </div>
+      </div>
+
+      <!-- Food -->
+
+      <button class="accordion">Food</button>
+      <div class="accordion-content section" id="food">
+        <div id="appetizers">
+          <h4>App location/notes</h4>
+        </div>
+        <div id="dessert">
+          <h4>Dessert Notes, Cake Topper?</h4>
+        </div>
+        <div id="buffetLocation"></div>
+        <div id="leftovers">
+          <h4>Who are we leaving leftovers/honey moon plate</h4>
+        </div>
+        <div id="bgServed">
+          <h4>How are the bride and groom going to be served</h4>
+        </div>
+      </div>
+      <!-- Equipment -->
+      <button class="accordion">Equipment Provided By</button>
+      <div class="accordion-content section" id="equipment">
+        <div id="tables">
+          <h4>Tables</h4>
+        </div>
+        <div id="tablecloth">
+          <h4>Table Cloths</h4>
+        </div>
+        <div id="plates">
+          <h4>Plates</h4>
+        </div>
+        <div id="drinkware">
+          <h4>Drinkware</h4>
+        </div>
+
+        <!-- <div class="list-group" id="beoTemplates"></div> -->
+      </div>
+      <!-- Services -->
+      <button class="accordion">Services Provided By Roadhouse</button>
+      <div class="accordion-content section" id="services">
+        <div id="setup"><h4>Who is setting up guest tables and chairs</h4></div>
+        <div id="cleanup">
+          <h4>who is responsible for final clean-up after guest departure?</h4>
+        </div>
+        <div id="checkout">
+          <h4>Who is DRR staff checking out with at end of night?</h4>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.min.js"></script>
+  <script src="script.js"></script>
+</html>
