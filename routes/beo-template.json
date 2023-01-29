@@ -2,7 +2,8 @@
   "nonAlcoholics": {
     "naProvidedBy": [
       "DRR",
-      "Client Providing"
+      "Client Providing",
+      "item to remove"
     ],
     "naLocation": [
       "Usual Location at Venue",

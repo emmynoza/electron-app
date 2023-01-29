@@ -9,7 +9,7 @@ function drawData() {
 function gotData(data) {
     console.log(data);
     const subsection = Object.values(data)
-
+    console.log(subsection);
     subsection.forEach(item => {
 
         Object.keys(item).forEach(key => {
@@ -44,7 +44,10 @@ function addToSection(section, beoItem) {
             sectionName.append(wrapper)
 
 
-
+            delBtn.addEventListener('click', e => {
+                e.preventDefault();
+                delItem(e);
+            })
 
 
             template.addEventListener('click', e => {
@@ -64,20 +67,20 @@ function addToSection(section, beoItem) {
 
 // delete button
 
-function deleteBtn(section) {
-    let delBtn = document.createElement('button')
-    delBtn.innerText = 'x'
-    section.appendChild(delBtn)
+function delItem(e) {
 
-    delBtn.addEventListener('click', e => {
-        e.preventDefault
+    let section = e.path[3]
+    let subSection = e.path[2]
+    let item = e.path[1].querySelector('.beo-items').innerText
+    console.log(section.id, subSection.id, item);
 
-        console.log(e.target);
+    loadJSON(`/delete/${section.id}/${subSection.id}/${item}`, finished)
 
-    })
 }
 
-
+function finished() {
+    console.log('finished');
+}
 
 
 

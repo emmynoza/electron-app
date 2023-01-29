@@ -73,7 +73,12 @@ function addItem(req, res) {
     }
 
     res.send(reply)
+}
 
+app.get('/delete/:section/:subSection/:item?', deleteItem)
+
+function deleteItem(req, res) {
+    let values = req.params
 
 }
 
